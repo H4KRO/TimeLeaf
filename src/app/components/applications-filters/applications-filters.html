@@ -1,0 +1,9 @@
+<p-tabs value="/dashboard" [(value)]="status">
+    <p-tablist>
+        @for(tab of tabs; track tab.status){
+            <p-tab [value]="tab.status" class="flex items-center !gap-2 text-inherit">
+                <span>{{ tab.label }}</span>
+            </p-tab>
+        }
+    </p-tablist>
+</p-tabs>

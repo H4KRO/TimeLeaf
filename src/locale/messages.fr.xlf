@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="2821179408673282599" datatype="html">
+        <source>Acceuil</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layouts/default/default.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6388259543756072137" datatype="html">
+        <source>Missions</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layouts/default/default.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
