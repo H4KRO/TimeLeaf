@@ -7,7 +7,6 @@ import {Button} from "primeng/button";
   selector: 'app-missions-search-result-list',
   imports: [
     Card,
-    Button
   ],
   templateUrl: './missions-search-result-list.html',
   styleUrl: './missions-search-result-list.css'
