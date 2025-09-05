@@ -1,0 +1,9 @@
+@media (min-width: 1024px) {
+    :host ::ng-deep .p-card,
+    :host ::ng-deep .p-card-body,
+    :host ::ng-deep .p-card-content {
+        position: sticky;
+        display: flex;
+        flex-grow: 1;
+    }
+}

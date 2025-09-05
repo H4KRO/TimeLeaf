@@ -1,3 +1,27 @@
-@for (application of applications(); track application.id) {
-    {{application.status}}
-}
+<ul class="flex flex-col gap-4">
+    @for (application of applications(); track application.id) {
+        <li>
+            <p-card [header]="application.mission.title">
+                <div class="flex mx-10">
+                    <div class="flex-1">
+                        <div i18n="Mission duration title | The title for the mission duration field" class="font-bold">
+                            Duration
+                        </div>
+                        <div i18n="Mission location value | The mission duration in month">
+                            {{ application.mission.duration }} months
+                        </div>
+                    </div>
+                    <div class="flex-1">
+                        <div i18n="Mission location title | The title for the location duration field" class="font-bold">
+                            Location
+                        </div>
+                        <div>
+                            {{ application.mission.location }}
+                        </div>
+                    </div>
+
+                </div>
+            </p-card>
+        </li>
+    }
+</ul>
