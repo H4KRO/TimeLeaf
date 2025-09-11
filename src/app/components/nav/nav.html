@@ -1,0 +1,17 @@
+<div class="lg:h-full">
+    <div class="sticky top-5 bottom-5">
+        <p-card>
+            <div class="flex justify-center lg:justify-start lg:gap-10 lg:flex-col py-5 items-center">
+                @for (item of items; track item.label) {
+                    <div
+                            [pTooltip]="item.label"
+                            [routerLink]="item.routerLink"
+                            class="flex justify-center items-center cursor-pointer grow lg:grow-0"
+                    >
+                        <i [ngClass]="item.icon"  style="font-size: 2.5rem"></i>
+                    </div>
+                }
+            </div>
+        </p-card>
+    </div>
+</div>

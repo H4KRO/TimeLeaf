@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import {RouterOutlet} from "@angular/router";
-import {Header} from "../../components/header/header";
+import {Nav} from "../../components/nav/nav";
 
 @Component({
   selector: 'app-default',
-  imports: [RouterOutlet, Header],
+  imports: [RouterOutlet, Nav],
   templateUrl: './default.html',
   styleUrl: './default.css'
 })

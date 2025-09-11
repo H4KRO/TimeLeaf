@@ -6,7 +6,7 @@ import {Card} from "primeng/card";
 import {RouterLink} from "@angular/router";
 
 @Component({
-  selector: 'app-header',
+  selector: 'app-nav',
   imports: [
     NgClass,
     Tooltip,
@@ -14,10 +14,10 @@ import {RouterLink} from "@angular/router";
     RouterLink
 
   ],
-  templateUrl: './header.html',
-  styleUrl: './header.css'
+  templateUrl: './nav.html',
+  styleUrl: './nav.css'
 })
-export class Header {
+export class Nav {
   items = [
     {
       label: $localize`:@@HeaderHomeLinkText:Home`,
